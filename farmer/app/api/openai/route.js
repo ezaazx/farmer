@@ -6,7 +6,7 @@ export async function POST(req) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: 'Bearer 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', // ← your OpenAI API key here
+        Authorization: ', // ← your OpenAI API key here
       },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
